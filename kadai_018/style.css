@@ -1,7 +1,6 @@
 #top {
     width: 800px;
     background-color:  #dcc9f4
-    ;padding: 20px;
     ;margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -9,20 +8,22 @@
     text-align: center;
 }
 .top-child {
-         background-color: #ffd9df
-         ;width:20%;
-         display: inline-block;
+    background-color: #ffd9df;
+    width:20%;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;    
     }
 
  #first-span {
-      background-color: #ffd9df
-      ;padding-left: 20%;
-       padding-right: 20%;
+    background-color: #ffd9df;
+    padding-left: 20%;
+    padding-right: 20%;
     }
  #second-span {
-      background-color: #ffd9df
-      ;padding-left: 20%;
-      padding-right: 20%;
+    background-color: #ffd9df;
+    padding-left: 20%;
+    padding-right: 20%;
     }  
 #middle{
    position: relative;
