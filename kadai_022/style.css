@@ -11,7 +11,8 @@ body{
     margin: 0;  
 }
 a{
-    font-size: 20px;  
+    font-size: 20px; 
+
 }
 header{
     margin-bottom: 20px
@@ -26,7 +27,7 @@ main{
     justify-content:space-between
 }
 .contents{
-    border: solid 3px rgb(238, 204, 204);
+    border: 3px solid rgb(238, 204, 204);
     flex-basis :25%;
     padding: 20px 0px;
     margin:  10px 15px;
@@ -35,8 +36,12 @@ main{
 }
 h2{
     font-size: 25px;  
-    text-decoration: underline; border: 3px rgb(236, 122, 122)
-    content "●";
+    border-bottom: dotted;
+    border-color:  rgb(236, 122, 122);
+    border-width: 3px;
+}
+h2::before{
+    content: "●";
     color: rgb(239, 111, 139)
 }
 
@@ -44,10 +49,14 @@ footer{
     background-color: rgb(244, 79, 79)
     ;text-align: center;
 }
-a{
-    font: rgb(255, 255, 255)
-    rgb(193, 234, 251)
-    rgb(245, 178, 168) 
+footer a{
+    color:  rgb(255, 255, 255)
+}
+footer a:visited{
+    color: (193, 234, 251)
+}
+footer a:hover {
+    color: rgb(245, 178, 168) 
 }
 @media screen and (max-width: 768px){
     h2{
