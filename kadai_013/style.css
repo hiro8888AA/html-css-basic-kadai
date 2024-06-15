@@ -58,6 +58,12 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+#menu-sp{
+   display: none;
+}
+#nav-sp{
+  display: none;
+}
 }
 @media screen and (max-width: 767px) {
   body {
@@ -70,7 +76,6 @@ PC用のスタイル
   #menu-sp{
       float: right;
       padding: 15px;
-      display: none
   }
   #nav-sp{
       background-color:#ce933e;
@@ -79,7 +84,6 @@ PC用のスタイル
       top: 0;
       height: 100%;
       width: 100%;
-      display: none;
       z-index: 100;
   }
   #close{
